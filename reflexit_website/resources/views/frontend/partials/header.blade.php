@@ -1,3 +1,19 @@
+
+<style>
+    /* Highlight the logo */
+/* Highlight the logo - big and clean */
+.highlight-logo img {
+    height: 120px; /* Make the logo bigger */
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Optional hover effect to make it pop */
+.highlight-logo:hover img {
+    filter: brightness(1.2); /* Makes it brighter */
+}
+
+</style>
+
  <!--Header Start-->
       <header id="rs-header" class="rs-header style2">
         <!-- Topbar Area Start -->
@@ -8,15 +24,15 @@
                 <ul class="topbar-contact">
                   <li>
                     <i class="flaticon-email"></i>
-                    <a href="mailto:info@reflexit.com">info@reflexit.com</a>
+                    <a href="mailto:info@reflexit.com">info@reflexit.com.bd</a>
                   </li>
                   <li>
                     <i class="flaticon-call"></i>
-                    <a href="tel:(+880)1828066845">(+880)1828066845</a>
+                   <a href="tel:(+880)9611080143">(+880) 9611080143</a>
                   </li>
                   <li>
                     <i class="flaticon-location"></i>
-                    House#622, Kamal Khan Road, Ibrahimpur, Kafrul, Dhaka-1206.
+                    House #411/2, Sampara Road, Mirpur-10, Kafrul, Dhaka-1206, Bangladesh.
                   </li>
                 </ul>
               </div>
@@ -52,8 +68,11 @@
             <div class="row align-items-center">
               <div class="col-lg-3">
                 <div class="logo-part">
-                  <a href="index.html"><img src="assets/images/RefLEX IT Logo1_copy.png" alt="" /></a>
+                    <a href="{{ url('/') }}" class="highlight-logo">
+                        <img src="assets/images/RefLEX IT Logo1_copy.png" alt="RefLEX IT Logo" />
+                    </a>
                 </div>
+
                 <div class="mobile-menu">
                   <a href="#" class="rs-menu-toggle rs-menu-toggle-close secondary">
                     <i class="fa fa-bars"></i>
@@ -71,7 +90,7 @@
                           <a href="{{ url('/')}}">Home</a>
                         </li>
                         <li>
-                          <a href="about.html">About</a>
+                          <a href="{{route('about.us')}}">About</a>
                         </li>
                         <li class="menu-item-has-children">
                           <a href="services.html">Services</a>
@@ -131,10 +150,10 @@
         <div class="canvas-contact">
           <h5 class="canvas-contact-title">Contact Info</h5>
           <ul class="contact">
-            <li><i class="fa fa-globe"></i>Middle Badda, Dhaka, BD</li>
-            <li><i class="fa fa-phone"></i>+123445789</li>
+            <li><i class="fa fa-globe"></i>House #411/2, Sampara Road, Mirpur-10, Kafrul, Dhaka-1206, Bangladesh</li>
+            <li><i class="fa fa-phone"></i>+8801816801552</li>
             <li>
-              <i class="fa fa-envelope"></i><a href="mailto:info@reflexit.com">info@reflexit.com</a>
+              <i class="fa fa-envelope"></i><a href="mailto:info@reflexit.com">info@reflexit.com.bd</a>
             </li>
             <li><i class="fa fa-clock-o"></i>09:00 AM - 06:00 PM</li>
           </ul>

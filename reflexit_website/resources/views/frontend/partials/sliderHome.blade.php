@@ -1,86 +1,174 @@
   <!-- Slider Section Start -->
 <style>
+/* =====================================================
+   REFLEX IT – RESPONSIVE HERO SLIDER CSS
+   ===================================================== */
+
+/* Base slider container */
+.rs-slider.style1 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Each slide */
+.rs-slider.style1 .slider-content {
+    position: relative;
+    width: 100%;
+    min-height: 520px;
+    overflow: hidden;
+}
+
+/* Slider image */
+.rs-slider.style1 .slider-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+/* Gradient overlay */
+.rs-slider.style1 .slider-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(6, 87, 145, 0.55),
+        rgba(0, 0, 0, 0.35)
+    );
+    z-index: 1;
+}
+
+/* Caption container */
+.rs-slider.style1 .slider-caption {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    max-width: 620px;
+    color: #ffffff;
+    z-index: 3;
+}
+
+/* Heading */
+.rs-slider.style1 .slider-caption h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+/* Paragraph */
+.rs-slider.style1 .slider-caption p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+/* =========================
+   NAVIGATION STYLING
+========================= */
+
+.rs-slider.style1 .owl-nav button {
+    background: rgba(255, 255, 255, 0.25) !important;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.rs-slider.style1 .owl-nav button:hover {
+    background: #065791 !important;
+}
+
+.rs-slider.style1 .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 5;
+}
+
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+@media (max-width: 991px) {
     .rs-slider.style1 .slider-content {
-        position: relative;
-        overflow: hidden;
-    }
-
-    .rs-slider.style1 .slider-content img {
-        width: 100%;
-        height: 100%;       /* fill the slider container */
-        object-fit: cover;  /* scale and crop image to fully cover */
-        object-position: center center; /* focus center of image */
-        transition: transform 1.5s ease, filter 1.5s ease;
-        filter: brightness(1.1) contrast(1.05);
-    }
-
-    .rs-slider.style1 .slider-content:hover img {
-        transform: scale(1.05); /* subtle zoom effect on hover */
-    }
-
-    .rs-slider.style1 .slider-overlay {
-        position: absolute;
-        inset: 0;
-        background: linear-gradient(
-            90deg,
-            rgba(6, 87, 145, 0.55),
-            rgba(0, 0, 0, 0.3)
-        );
-        z-index: 1;
+        min-height: 460px;
     }
 
     .rs-slider.style1 .slider-caption {
-        position: absolute;
-        top: 50%;
-        left: 8%;
-        transform: translateY(-50%);
-        color: #fff;
-        max-width: 600px;
-        z-index: 2;
-        text-shadow: 2px 2px 8px rgba(0,0,0,0.5); /* makes text pop over image */
+        left: 6%;
+        max-width: 520px;
     }
 
     .rs-slider.style1 .slider-caption h1 {
-        font-size: 48px;
-        font-weight: 700;
-        line-height: 1.2;
-        margin-bottom: 15px;
+        font-size: 34px;
     }
 
     .rs-slider.style1 .slider-caption p {
-        font-size: 18px;
+        font-size: 16px;
+    }
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+@media (max-width: 767px) {
+    .rs-slider.style1 .slider-content {
+        min-height: 420px;
+    }
+
+    .rs-slider.style1 .slider-content img {
+        object-position: center top;
+    }
+
+    .rs-slider.style1 .slider-caption {
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .rs-slider.style1 .slider-caption h1 {
+        font-size: 26px;
+        line-height: 1.35;
+        margin-bottom: 12px;
+    }
+
+    .rs-slider.style1 .slider-caption p {
+        font-size: 14px;
         line-height: 1.6;
-        opacity: 0.95;
     }
 
-    /* Navigation polish */
-    .rs-slider.style1 .owl-nav button {
-        background: rgba(255,255,255,0.2) !important;
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
+    /* Hide arrows on mobile */
+    .rs-slider.style1 .owl-nav {
+        display: none;
+    }
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+@media (max-width: 480px) {
+    .rs-slider.style1 .slider-content {
+        min-height: 380px;
     }
 
-    .rs-slider.style1 .owl-nav button:hover {
-        background: #065791 !important;
+    .rs-slider.style1 .slider-caption h1 {
+        font-size: 22px;
     }
 
-    /* Responsive */
-    @media (max-width: 768px) {
-        .rs-slider.style1 .slider-content img {
-            height: 420px;
-        }
-
-        .rs-slider.style1 .slider-caption h1 {
-            font-size: 32px;
-        }
-
-        .rs-slider.style1 .slider-caption {
-            left: 5%;
-            right: 5%;
-            text-align: center;
-        }
+    .rs-slider.style1 .slider-caption p {
+        font-size: 13px;
     }
+}
+
     </style>
 
 

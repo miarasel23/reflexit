@@ -49,7 +49,7 @@
                         </li>
                         <li>
                             <i class="flaticon-email"></i>
-                            <div class="desc"><a href="mailto:info@reflexit.com">info@reflexit.com</a></div>
+                            <div class="desc"><a href="mailto:info@reflexit.com.bd">info@reflexit.com.bd</a></div>
                         </li>
                         <li>
                             <i class="flaticon-clock-1"></i>
