@@ -1,6 +1,7 @@
 @extends('frontend.layouts.app')
 
 @section('content')
+@include('frontend.partials.sliderHome')
      <!-- About Section Start -->
     <div id="rs-about" class="rs-about pb-50 pt-50 md-pt-70">
       <div class="container">

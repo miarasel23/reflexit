@@ -5160,18 +5160,23 @@ body .search-modal .close:hover {
   transform: rotate(26deg);
 }
 .rs-breadcrumbs.img1 {
-  background: url(assets/images/breadcrumbs/1.jpg);
+  background: url("../images/breadcrumbs/1.jpg");
   background-position: center top;
 }
+
 .rs-breadcrumbs.img2 {
-  background: url(assets/images/breadcrumbs/2.jpg);
+  background: url("../images/breadcrumbs/2.jpg");
 }
+
 .rs-breadcrumbs.img3 {
-  background: url(assets/images/breadcrumbs/3.jpg);
+  background: url("../images/breadcrumbs/3.jpg");
 }
+
 .rs-breadcrumbs.img4 {
-  background: url(assets/images/breadcrumbs/4.jpg);
+  background: url("../images/breadcrumbs/4.jpg");
 }
+
+
 .rs-slider.style1 .slider-content {
   padding: 0px;
   height: 500px;

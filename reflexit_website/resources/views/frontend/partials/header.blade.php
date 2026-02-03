@@ -93,33 +93,36 @@
                           <a href="{{route('about.us')}}">About</a>
                         </li>
                         <li class="menu-item-has-children">
-                          <a href="services.html">Services</a>
+                          <a>Services</a>
                           <ul class="sub-menu">
                             <li>
-                              <a href="software-development.html">Software Development</a>
+                              <a href="{{route('services')}}">Our Services</a>
                             </li>
                             <li>
-                              <a href="web-development.html">Web Development</a>
+                              <a href="{{route('software.development')}}">Software Development</a>
                             </li>
                             <li>
-                              <a href="mobile-application.html">Mobile Application</a>
+                              <a href="{{route('web.development')}}">Web Development</a>
                             </li>
                             <li>
-                              <a href="cloud-and-devops.html">Cloud and DevOps</a>
+                              <a href="{{route('mobile.application.development')}}">Mobile Application</a>
                             </li>
                             <li>
-                              <a href="erp.html">ERP</a>
+                              <a href="{{route('cloud.and.devops')}}">Cloud and DevOps</a>
                             </li>
                             <li>
-                              <a href="ecommerce.html">Ecommerce</a>
+                              <a href="{{route('erp')}}">ERP</a>
                             </li>
                             <li>
-                              <a href="product-design.html">Product Design</a>
+                              <a href="{{route('e_commerce')}}">Ecommerce</a>
+                            </li>
+                            <li>
+                              <a href="{{route('product.design')}}">Product Design</a>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="contact.html">Contact</a>
+                          <a href="{{route('contact.us')}}">Contact</a>
                         </li>
                       </ul>
                       <!-- //.nav-menu -->

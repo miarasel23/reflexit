@@ -15,9 +15,8 @@
       <!--Header End-->
     </div>
     <!--Full width header End-->
-    @include('frontend.partials.sliderHome')
 
-     @yield('content')
+    @yield('content')
 
     <!-- Portfolio End -->
   </div>
@@ -31,9 +30,6 @@
     <i class="fa fa-angle-up"></i>
   </div>
   <!-- End scrollUp  -->
-
-
-
   @include('frontend.include.scripts')
 </body>
 

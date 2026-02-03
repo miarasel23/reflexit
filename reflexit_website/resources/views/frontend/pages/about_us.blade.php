@@ -5,7 +5,7 @@
 
 
 <!-- Breadcrumbs Start -->
-<div class="rs-breadcrumbs img2" style="margin-top:-12%;">
+<div class="rs-breadcrumbs img2" >
     <div class="breadcrumbs-inner text-center">
         <h1 class="page-title">About Us</h1>
         <ul>
@@ -49,7 +49,7 @@
 
             <div class="col-lg-6">
                 <div class="software-img">
-                    <img src="assets/images/pexels.jpg" alt="About Reflex IT">
+                    <img src="{{ asset('assets/images/pexels.jpg') }}" alt="About Reflex IT">
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@
                 <div class="col-lg-4 md-mb-30">
                     <div class="services-item">
                         <div class="services-icon">
-                            <img src="assets/images/services/style7/1.png" alt="">
+                            <img src="{{ asset('assets/images/services/style7/1.png') }}" alt="">
                         </div>
                         <div class="services-content">
                             <h3 class="services-title">
@@ -80,7 +80,7 @@
                 <div class="col-lg-4 md-mb-30">
                     <div class="services-item">
                         <div class="services-icon">
-                            <img src="assets/images/services/style7/2.png" alt="">
+                            <img src="{{ asset('assets/images/services/style7/2.png') }}" alt="">
                         </div>
                         <div class="services-content">
                             <h3 class="services-title">
@@ -97,7 +97,7 @@
                 <div class="col-lg-4">
                     <div class="services-item">
                         <div class="services-icon">
-                            <img src="assets/images/services/style7/3.png" alt="">
+                            <img src="{{ asset('assets/images/services/style7/3.png') }}" alt="">
                         </div>
                         <div class="services-content">
                             <h3 class="services-title">
@@ -255,13 +255,10 @@
             data-autoplay="true"
             data-dots="false"
             data-nav="false">
-
-            <div class="partner-item"><img src="assets/images/partner/1.png" alt=""></div>
-            <div class="partner-item"><img src="assets/images/partner/2.png" alt=""></div>
-            <div class="partner-item"><img src="assets/images/partner/3.png" alt=""></div>
-            <div class="partner-item"><img src="assets/images/partner/4.png" alt=""></div>
-            <div class="partner-item"><img src="assets/images/partner/5.png" alt=""></div>
-
+            <div class="partner-item"><img src="{{ asset('assets/images/partner/1.png') }}" alt=""></div><div class="partner-item"><img src="{{ asset('assets/images/partner/2.png') }}" alt=""></div>
+            <div class="partner-item"><img src="{{ asset('assets/images/partner/3.png') }}" alt=""></div>
+            <div class="partner-item"><img src="{{ asset('assets/images/partner/4.png') }}" alt=""></div>
+            <div class="partner-item"><img src="{{ asset('assets/images/partner/5.png') }}" alt=""></div>
         </div>
     </div>
 </div>
