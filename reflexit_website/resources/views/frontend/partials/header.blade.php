@@ -89,9 +89,7 @@
                               current-menu-item ">
                           <a href="{{ url('/')}}">Home</a>
                         </li>
-                        <li>
-                          <a href="{{route('about.us')}}">About</a>
-                        </li>
+
                         <li class="menu-item-has-children">
                           <a>Services</a>
                           <ul class="sub-menu">
@@ -121,8 +119,14 @@
                             </li>
                           </ul>
                         </li>
+                         <li>
+                          <a href="{{route('about.us')}}">About</a>
+                        </li>
                         <li>
                           <a href="{{route('contact.us')}}">Contact</a>
+                        </li>
+                        <li>
+                          <a href="{{route('blog')}}">Blog</a>
                         </li>
                       </ul>
                       <!-- //.nav-menu -->

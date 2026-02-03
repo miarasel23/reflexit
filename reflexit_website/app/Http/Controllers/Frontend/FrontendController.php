@@ -51,4 +51,8 @@ class FrontendController extends Controller
     {
         return view('frontend.pages.e_commerce');
     }
+    public function blog()
+    {
+        return view('frontend.pages.blog');
+    }
 }

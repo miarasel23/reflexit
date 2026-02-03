@@ -115,13 +115,13 @@
                             <li class="active"><a href="product-design.html">Product Design</a></li>
                             <li><a href="#">Training</a></li>
                         </ul>
-                        <div class="services-add mb-50 mt-50">
+                        <div class="services-add mb-50 mt-50" style="background-color: dodgerblue">
                             <div class="address-item mb-35">
                                 <div class="address-icon"><i class="fa fa-phone"></i></div>
                             </div>
                             <h2 class="title">Have a Design Idea? <br />Let's Sketch It!</h2>
                             <div class="contact">
-                                <a href="tel:(+880)1828066845">(+880)1828066845</a>
+                                <a href="tel:(+880)1816801552">(+880)1816801552</a>
                             </div>
                         </div>
                     </div>

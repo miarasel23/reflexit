@@ -25,4 +25,5 @@ Route::get('/cloud-and-devops', [FrontendController::class, 'cloudAndDevOps'])->
 Route::get('/product-design', [FrontendController::class, 'productDesign'])->name('product.design');
 Route::get('/erp', [FrontendController::class, 'erp'])->name('erp');
 Route::get('/e-commerce', [FrontendController::class, 'e_commerce'])->name('e_commerce');
+Route::get('/blog', [FrontendController::class, 'blog'])->name('blog');
 
