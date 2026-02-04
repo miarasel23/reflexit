@@ -59,15 +59,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 md-mb-50">
-                        <div class="services-img">
-                            <img src="assets/images/services/single/web-dev.png" alt="Web Development" />
-                        </div>
-                        <h2 class="mt-34">Modern Web Solutions for a Competitive Market</h2>
+
+                        <h1 class="mt-34" style="font-size: 30px;">Modern Web Solutions for a Competitive Market</h1>
                         <p>
-                            In an era where your website is often the first point of contact for customers, we ensure
-                            that impression is unforgettable. Our web development services blend creative design with
-                            powerful backend architecture. We specialize in building responsive, SEO-friendly, and
-                            high-speed websites that convert visitors into loyal clients.
+                           ReflexIT offers reliable website design and development service that is responsive and device independent. With a team of enthusiastic and skillful web designers and developers, we are ready to help you in building the perfect website that is in sync with your business.<br><br>
+
+Virtual existence of your business is equally important as the physical address of the business. And imperative is a good website as it is the only thing that represents your business in the online world. Your website does not only have your information but also portrays your ethos to your target market and competitors alike. From Brand Persona to customer experience, GTech ensures the projection of the right message and essence through skills and expertise.
                         </p>
                         <ul class="listing-style">
                             <li><i class="fa fa-check-circle"></i><span> Responsive & Mobile-First Design</span></li>
@@ -82,28 +79,28 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <span class="skillbar-title">Laravel / PHP</span>
-                                        <div class="skillbar" data-percent="95">
+                                        <div class="skillbar" data-percent="100">
                                             <p class="skillbar-bar"></p>
                                             <span class="skill-bar-percent"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <span class="skillbar-title">React / Next.js</span>
-                                        <div class="skillbar" data-percent="92">
+                                        <div class="skillbar" data-percent="99.99">
                                             <p class="skillbar-bar"></p>
                                             <span class="skill-bar-percent"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <span class="skillbar-title">UI/UX Integration</span>
-                                        <div class="skillbar" data-percent="85">
+                                        <div class="skillbar" data-percent="99">
                                             <p class="skillbar-bar"></p>
                                             <span class="skill-bar-percent"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <span class="skillbar-title">E-commerce Solutions</span>
-                                        <div class="skillbar" data-percent="90">
+                                        <div class="skillbar" data-percent="100">
                                             <p class="skillbar-bar"></p>
                                             <span class="skill-bar-percent"></span>
                                         </div>
@@ -121,45 +118,30 @@
                         </p>
 
                         <div class="rs-testimonial style5">
-                            <div class="testi-item">
-                                <div class="testi-img">
-                                    <img src="assets/images/testimonial/main-home/quote-white2.png" alt="" />
-                                </div>
-                                <p>
-                                    Reflex IT delivered our web platform on time and with exceptional quality. The dynamic
-                                    features and speed of the site have greatly improved our customer engagement.
-                                </p>
-                                <div class="testi-content">
-                                    <div class="author-part">
-                                        <div class="name">Sarah Mitchell</div>
-                                        <span class="designation">Marketing Director</span>
-                                    </div>
-                                </div>
-                            </div>
+
+                                <h2 style="font-size: 1.7rem; font-weight: 700; letter-spacing: 1px; color: #110000; text-align: left;">HOW WILL WE HELP YOU!</h2>
+                                <ul class="how-we-help-list" style="text-align: left;">
+                                    <li style="display: flex; align-items: flex-start; margin-bottom: 18px;">
+                                        <span style="display: inline-block; width: 6px; min-width: 6px; height: 100%; background: #a33ce7; border-radius: 3px; margin-right: 14px; margin-top: 4px;"></span>
+                                        <span style="color: #251f1f; font-size: 1.08rem; line-height: 1.7; text-align: left;">Carrying out the necessary analysis according to your business and brainstorm ideas to design a website that represent your business best.</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; margin-bottom: 18px;">
+                                        <span style="display: inline-block; width: 6px; min-width: 6px; height: 100%; background: #6506eb; border-radius: 3px; margin-right: 14px; margin-top: 4px;"></span>
+                                        <span style="color: #110101; font-size: 1.08rem; line-height: 1.7; text-align: left;">Start developing the website only after the analyses and mock-ups have been approved by the clients.</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; margin-bottom: 18px;">
+                                        <span style="display: inline-block; width: 6px; min-width: 6px; height: 100%; background: #e74c3c; border-radius: 3px; margin-right: 14px; margin-top: 4px;"></span>
+                                        <span style="color: #080000; font-size: 1.08rem; line-height: 1.7; text-align: left;">Thorough and efficient development and testing process is rolled out for the end product to be bug free, responsive and user-friendly.</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; margin-bottom: 0;">
+                                        <span style="display: inline-block; width: 6px; min-width: 6px; height: 100%; background: #e74c3c; border-radius: 3px; margin-right: 14px; margin-top: 4px;"></span>
+                                        <span style="color: #0f0000; font-size: 1.08rem; line-height: 1.7; text-align: left;">Taking feedback and further recommendations, if any, from clients and deliver accordingly.</span>
+                                    </li>
+                                </ul>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 pl-32 md-pl-15">
-                        <ul class="services-list">
-                            <li><a href="software-development.html">Software Development</a></li>
-                            <li class="active"><a href="web-development.html">Web Development</a></li>
-                            <li><a href="mobile-app.html">Mobile Application</a></li>
-                            <li><a href="cloud-and-devops.html">Cloud and DevOps</a></li>
-                            <li><a href="erp.html">ERP</a></li>
-                            <li><a href="ecommerce.html">Ecommerce</a></li>
-                            <li><a href="product-design.html">Product Design</a></li>
-                            <li><a href="training.html">Training</a></li>
-                        </ul>
-                        <div class="services-add mb-50 mt-50" style="background-color: dodgerblue">
-                            <div class="address-item mb-35">
-                                <div class="address-icon"><i class="fa fa-phone"></i></div>
-                            </div>
-                            <h2 class="title">Have a Web Project? <br />Get a Quote Today!</h2>
-                            <div class="contact">
-                                <a href="tel:(+880)1816801552">(+880)1816801552</a>
-                            </div>
-                        </div>
-                    </div>
+                   @include('frontend.partials.front_sidebar')
                 </div>
             </div>
         </div>

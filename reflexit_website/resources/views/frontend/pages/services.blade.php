@@ -213,48 +213,7 @@
               </div>
               <!-- Testimonial Section End -->
             </div>
-            <div class="col-lg-4 pl-32 md-pl-15">
-              <ul class="services-list">
-                <li>
-                  <a href="software-development.html">Software Development</a>
-                </li>
-                <li><a href="web-development.html">Web Development</a></li>
-                <li>
-                  <a href="case-studies-single.html">Mobile Application</a>
-                </li>
-                <li><a href="cloud-and-devops.html">Cloud and DevOps</a></li>
-                <li><a href="cloud-and-devops.html">ERP</a></li>
-                <li><a href="cloud-and-devops.html">Ecommerce</a></li>
-                <li><a href="product-design.html">Product Design</a></li>
-                <li><a href="#">Training</a></li>
-              </ul>
-              <div class="services-add mb-50 mt-50" style="background-color: dodgerblue">
-                <div class="address-item mb-35">
-                  <div class="address-icon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                </div>
-                <h2 class="title">
-                  Have any Questions? <br />
-                  Call us Today!
-                </h2>
-                <div class="contact">
-                  <a href="tel:(+880)1816801552">(+880)1816801552</a>
-                </div>
-              </div>
-              <div class="brochures">
-                <h3>Brochures</h3>
-                <p>
-                  Cras enim urna, interdum nec por ttitor vitae, sollicitudin eu
-                  erosen. Praesent eget mollis nulla sollicitudin.
-                </p>
-                <div class="pdf-btn">
-                  <a class="readon learn-more pdf" href="contact.html"
-                    >Download Now<i class="fa fa-file-pdf-o"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
+           @include('frontend.partials.front_sidebar')
           </div>
         </div>
       </div>

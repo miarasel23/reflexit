@@ -58,9 +58,36 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 md-mb-50">
-                        <div class="services-img">
-                            <img src="assets/images/services/single/mobile-app.png"
-                                alt="Mobile Application Development" />
+                        <div class="container py-5">
+                            <div class="row text-center" style="gap:0;">
+                                <div class="col-md-4 mb-4 mb-md-0">
+                                    <h3 style="font-weight:700;letter-spacing:1px;">ANDROID APP<br>DEVELOPMENT</h3>
+                                    <div style="font-size:60px;color:#666;margin:18px 0;">
+                                        <i class="fa fa-android"></i>
+                                    </div>
+                                    <p style="color:#444;font-size:17px;line-height:1.7;max-width:320px;margin:0 auto;">
+                                        Compatible App Development Service for Android devices customised for businesses, with responsive and intuitive UI functionalities for target customers.
+                                    </p>
+                                </div>
+                                <div class="col-md-4 mb-4 mb-md-0">
+                                    <h3 style="font-weight:700;letter-spacing:1px;">IOS APP<br>DEVELOPMENT</h3>
+                                    <div style="font-size:60px;color:#666;margin:18px 0;">
+                                        <i class="fa fa-apple"></i>
+                                    </div>
+                                    <p style="color:#444;font-size:17px;line-height:1.7;max-width:320px;margin:0 auto;">
+                                        Seamless and customised Business Apps development service for iOS devices essentially meeting your brand and business needs.
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3 style="font-weight:700;letter-spacing:1px;">CROSS-PLATFORM APP<br>DEVELOPMENT</h3>
+                                    <div style="font-size:60px;color:#666;margin:18px 0;">
+                                        <i class="fa fa-tablet"></i>
+                                    </div>
+                                    <p style="color:#444;font-size:17px;line-height:1.7;max-width:320px;margin:0 auto;">
+                                        Cost-efficient, tech-friendly apps customised for your business. One developed app that runs in different platforms like iOS and Android.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                         <h2 class="mt-34">High-Performance Apps for iOS and Android</h2>
                         <p>
@@ -82,28 +109,28 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <span class="skillbar-title">React Native</span>
-                                        <div class="skillbar" data-percent="95">
+                                        <div class="skillbar" data-percent="98">
                                             <p class="skillbar-bar"></p>
                                             <span class="skill-bar-percent"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <span class="skillbar-title">Flutter Development</span>
-                                        <div class="skillbar" data-percent="88">
+                                        <div class="skillbar" data-percent="99">
                                             <p class="skillbar-bar"></p>
                                             <span class="skill-bar-percent"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <span class="skillbar-title">API Integration (Node/Laravel)</span>
-                                        <div class="skillbar" data-percent="92">
+                                        <span class="skillbar-title">API Integration (Python/Node/Laravel)</span>
+                                        <div class="skillbar" data-percent="99">
                                             <p class="skillbar-bar"></p>
                                             <span class="skill-bar-percent"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <span class="skillbar-title">Mobile UI Design</span>
-                                        <div class="skillbar" data-percent="90">
+                                        <div class="skillbar" data-percent="98">
                                             <p class="skillbar-bar"></p>
                                             <span class="skill-bar-percent"></span>
                                         </div>
@@ -129,37 +156,11 @@
                                     The mobile app developed by Reflex IT has become a core part of our business. The
                                     transition from web to mobile was seamless, and our users love the interface.
                                 </p>
-                                <div class="testi-content">
-                                    <div class="author-part">
-                                        <div class="name">David Wilson</div>
-                                        <span class="designation">Founder, TechSprint</span>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 pl-32 md-pl-15">
-                        <ul class="services-list">
-                            <li><a href="software-development.html">Software Development</a></li>
-                            <li><a href="web-development.html">Web Development</a></li>
-                            <li class="active"><a href="mobile-application.html">Mobile Application</a></li>
-                            <li><a href="cloud-and-devops.html">Cloud and DevOps</a></li>
-                            <li><a href="erp.html">ERP</a></li>
-                            <li><a href="ecommerce.html">Ecommerce</a></li>
-                            <li><a href="product-design.html">Product Design</a></li>
-                            <li><a href="training.html">Training</a></li>
-                        </ul>
-                        <div class="services-add mb-50 mt-50" style="background-color: dodgerblue">
-                            <div class="address-item mb-35">
-                                <div class="address-icon"><i class="fa fa-phone"></i></div>
-                            </div>
-                            <h2 class="title">Ready to Launch an App? <br />Talk to Us!</h2>
-                            <div class="contact">
-                                <a href="tel:(+880)1816801552">(+880)1816801552</a>
-                            </div>
-                        </div>
-                    </div>
+                      @include('frontend.partials.front_sidebar')
                 </div>
             </div>
         </div>

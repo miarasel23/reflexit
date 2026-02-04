@@ -10,7 +10,7 @@
                     </div>
                     <div class="textwidget pb-30">
                         <p>
-                            Reflex IT is a leading IT services company with over 5 years of experience delivering
+                            Reflex IT is a leading IT services company with over 7 years of experience delivering
                             innovative software, web, and mobile solutions. We empower businesses worldwide with
                             secure, scalable, and future-ready digital solutions.
                         </p>

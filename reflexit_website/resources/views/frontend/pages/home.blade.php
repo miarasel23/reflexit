@@ -10,10 +10,10 @@
             <div class="sec-title mb-50">
               <div class="sub-text style4-bg">About Us</div>
               <h2 class="title pb-20">
-                Over 5+ Years Helping Brands to Reach Full Potential
+                Over 7+ Years Helping Brands to Reach Full Potential
               </h2>
               <div class="desc">
-                Over 5 years working in IT services developing software
+                Over 7 years working in IT services developing software
                 applications and mobile apps for clients all over the world.
                 From its medieval origins to the digital era, learn everything
                 there is to know about the future.
@@ -33,7 +33,7 @@
                       <div class="counter-list">
                         <div class="counter-text">
                           <div class="count-number">
-                            <span class="rs-count plus orange-color">20</span>
+                            <span class="rs-count plus orange-color">500+</span>
                           </div>
                           <h3 class="title">Happy Clients</h3>
                         </div>
@@ -43,7 +43,7 @@
                       <div class="counter-list">
                         <div class="counter-text">
                           <div class="count-number">
-                            <span class="rs-count plus reflex-color">45</span>
+                            <span class="rs-count plus reflex-color">2000+</span>
                           </div>
                           <h3 class="title">Project Delivered</h3>
                         </div>
@@ -53,7 +53,7 @@
                       <div class="counter-list">
                         <div class="counter-text">
                           <div class="count-number">
-                            <span class="rs-count plus purple-color">25</span>
+                            <span class="rs-count plus purple-color">25+</span>
                           </div>
                           <h3 class="title">Expert Team</h3>
                         </div>

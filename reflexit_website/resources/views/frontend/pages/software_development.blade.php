@@ -57,16 +57,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 md-mb-50">
-                        <div class="services-img">
-                            <img src="assets/images/services/single/software-dev.png" alt="Software Development" />
-                        </div>
-                        <h2 class="mt-34">Custom Software Solutions Tailored for Your Growth</h2>
+
+                        <h1 class="mt-34" style="font-size: 30px;">SOFTWARE DEVELOPMENT SERVICES</h1>
                         <p>
-                            In today's digital landscape, off-the-shelf software often falls short of meeting unique
-                            business requirements. Our software development services focus on building scalable, secure,
-                            and high-performance applications designed to streamline your operations. Whether it's a
-                            desktop application, a complex enterprise system, or a cloud-native solution, we leverage
-                            the latest technologies to deliver excellence.
+                            ReflexIT delivers reliable, scalable, and high-performance software development services designed to match your business goals. With a team of skilled, innovative, and passionate engineers, we transform ideas into intelligent digital solutions that improve efficiency, automation, and long-term growth.<br><br>
+    In today’s digital era, software is the backbone of modern business operations. Your systems define how you serve customers, manage processes, and compete in the market. More than just functionality, your software reflects your vision and professionalism. From architecture planning to user experience and security, ReflexIT ensures every solution communicates the right message while providing fast, secure, and future-ready technology through expertise and creativity.
                         </p>
                         <ul class="listing-style">
                             <li><i class="fa fa-check-circle"></i><span> Agile Development Methodology</span></li>
@@ -138,27 +133,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 pl-32 md-pl-15">
-                        <ul class="services-list">
-                            <li class="active"><a href="software-development.html">Software Development</a></li>
-                            <li><a href="web-development.html">Web Development</a></li>
-                            <li><a href="mobile-app.html">Mobile Application</a></li>
-                            <li><a href="cloud-and-devops.html">Cloud and DevOps</a></li>
-                            <li><a href="erp.html">ERP</a></li>
-                            <li><a href="ecommerce.html">Ecommerce</a></li>
-                            <li><a href="product-design.html">Product Design</a></li>
-                            <li><a href="training.html">Training</a></li>
-                        </ul>
-                        <div class="services-add mb-50 mt-50" style="background-color: dodgerblue">
-                            <div class="address-item mb-35">
-                                <div class="address-icon"><i class="fa fa-phone"></i></div>
-                            </div>
-                            <h2 class="title">Need a Custom Solution? <br />Call us Today!</h2>
-                            <div class="contact">
-                                <a href="tel:(+880)1816801552">(+880)1816801552</a>
-                            </div>
-                        </div>
-                    </div>
+                   @include('frontend.partials.front_sidebar')
                 </div>
             </div>
         </div>

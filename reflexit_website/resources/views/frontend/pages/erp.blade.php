@@ -16,9 +16,6 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 md-mb-50">
-                        <div class="services-img">
-                            <img src="assets/images/services/single/erp.png" alt="Custom ERP Solutions" />
-                        </div>
                         <h2 class="mt-34">Streamline Operations with Custom ERP</h2>
                         <p>
                             As your business grows, managing disconnected spreadsheets and manual data entry becomes
@@ -43,28 +40,28 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <span class="skillbar-title">Financial Automation</span>
-                                        <div class="skillbar" data-percent="92">
+                                        <div class="skillbar" data-percent="100">
                                             <p class="skillbar-bar"></p>
                                             <span class="skill-bar-percent"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <span class="skillbar-title">Inventory Management</span>
-                                        <div class="skillbar" data-percent="88">
+                                        <div class="skillbar" data-percent="100">
                                             <p class="skillbar-bar"></p>
                                             <span class="skill-bar-percent"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <span class="skillbar-title">Custom Reporting/BI</span>
-                                        <div class="skillbar" data-percent="95">
+                                        <div class="skillbar" data-percent="100">
                                             <p class="skillbar-bar"></p>
                                             <span class="skill-bar-percent"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <span class="skillbar-title">User Role & Access Security</span>
-                                        <div class="skillbar" data-percent="94">
+                                        <div class="skillbar" data-percent="100">
                                             <p class="skillbar-bar"></p>
                                             <span class="skill-bar-percent"></span>
                                         </div>
@@ -83,44 +80,16 @@
 
                         <div class="rs-testimonial style5">
                             <div class="testi-item">
-                                <div class="testi-img">
-                                    <img src="assets/images/testimonial/main-home/quote-white2.png" alt="" />
-                                </div>
+
                                 <p>
                                     The ERP built by Reflex IT transformed how we track our stock and sales. We now have
                                     100% visibility on our profit margins and employee productivity. Highly recommended!
                                 </p>
-                                <div class="testi-content">
-                                    <div class="author-part">
-                                        <div class="name">Robert Geller</div>
-                                        <span class="designation">Operations Manager, Titan Logistics</span>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 pl-32 md-pl-15">
-                        <ul class="services-list">
-                            <li><a href="software-development.html">Software Development</a></li>
-                            <li><a href="web-development.html">Web Development</a></li>
-                            <li><a href="mobile-application.html">Mobile Application</a></li>
-                            <li><a href="cloud-and-devops.html">Cloud and DevOps</a></li>
-                            <li class="active"><a href="erp.html">ERP</a></li>
-                            <li><a href="ecommerce.html">Ecommerce</a></li>
-                            <li><a href="product-design.html">Product Design</a></li>
-                            <li><a href="#">Training</a></li>
-                        </ul>
-                        <div class="services-add mb-50 mt-50" style="background-color: dodgerblue">
-                            <div class="address-item mb-35">
-                                <div class="address-icon"><i class="fa fa-phone"></i></div>
-                            </div>
-                            <h2 class="title">Ready to Automate? <br />Consult Us Now!</h2>
-                            <div class="contact">
-                                <a href="tel:(+880)1816801552">(+880)1816801552</a>
-                            </div>
-                        </div>
-                    </div>
+                    @include('frontend.partials.front_sidebar')
                 </div>
             </div>
         </div>
