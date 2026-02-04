@@ -46,7 +46,7 @@
                       <a href="https://www.facebook.com/reflexit.com.bd/" target="_blank"><i
                           class="fa fa-facebook"></i></a>
                     </li>
-                    <li>
+                    {{-- <li>
                       <a href="#"><i class="fa fa-twitter"></i></a>
                     </li>
                     <li>
@@ -54,7 +54,7 @@
                     </li>
                     <li>
                       <a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
+                    </li> --}}
                   </ul>
                 </div>
               </div>

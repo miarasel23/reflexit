@@ -7,7 +7,7 @@
                             <li><a href="{{route('erp')}}">ERP</a></li>
                             <li><a href="{{route('e_commerce')}}">Ecommerce</a></li>
                             <li><a href="{{route('product.design')}}">Product Design</a></li>
-                            <li><a href="#">Training</a></li>
+                            <li><a href="https://www.skillreflex.com" target="_blank">Training</a></li>
                         </ul>
                         <div class="services-add mb-50 mt-50" style="background-color: dodgerblue">
                             <div class="address-item mb-35">

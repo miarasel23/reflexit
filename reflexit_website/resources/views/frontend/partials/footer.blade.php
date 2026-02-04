@@ -17,9 +17,9 @@
                     </div>
                     <ul class="footer-social md-mb-30">
                         <li><a href="https://www.facebook.com/Reflex-It-128536782124720" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        {{-- <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li> --}}
                     </ul>
                 </div>
 
@@ -27,11 +27,11 @@
                 <div class="col-lg-3 col-md-12 col-sm-12 pl-45 md-pl-15 md-mb-30">
                     <h3 class="widget-title">Our Services</h3>
                     <ul class="site-map">
-                        <li><a href="software-development.html">Software Development</a></li>
-                        <li><a href="web-development.html">Web Development</a></li>
-                        <li><a href="mobile-application.html">Mobile Applications</a></li>
-                        <li><a href="cloud-and-devops.html">Cloud & DevOps</a></li>
-                        <li><a href="product-design.html">Product Design</a></li>
+                        <li><a href="{{route('software.development')}}">Software Development</a></li>
+                        <li><a href="{{route('web.development')}}">Web Development</a></li>
+                        <li><a href="{{route('mobile.application.development')}}">Mobile Applications</a></li>
+                        <li><a href="{{route('cloud.and.devops')}}">Cloud & DevOps</a></li>
+                        <li><a href="{{route('product.design')}}">Product Design</a></li>
                     </ul>
                 </div>
 

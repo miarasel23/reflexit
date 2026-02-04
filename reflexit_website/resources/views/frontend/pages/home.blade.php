@@ -33,7 +33,7 @@
                       <div class="counter-list">
                         <div class="counter-text">
                           <div class="count-number">
-                            <span class="rs-count plus orange-color">500+</span>
+                            <span class="rs-count plus orange-color">500</span>
                           </div>
                           <h3 class="title">Happy Clients</h3>
                         </div>
@@ -43,7 +43,7 @@
                       <div class="counter-list">
                         <div class="counter-text">
                           <div class="count-number">
-                            <span class="rs-count plus reflex-color">2000+</span>
+                            <span class="rs-count plus reflex-color">750</span>
                           </div>
                           <h3 class="title">Project Delivered</h3>
                         </div>
@@ -53,7 +53,7 @@
                       <div class="counter-list">
                         <div class="counter-text">
                           <div class="count-number">
-                            <span class="rs-count plus purple-color">25+</span>
+                            <span class="rs-count plus purple-color">25</span>
                           </div>
                           <h3 class="title">Expert Team</h3>
                         </div>
@@ -166,6 +166,7 @@
       </div>
     </div>
     <!-- About Section End -->
+
 
     <!-- Services Section Start -->
     <div id="rs-services" class="rs-services main-home gray-color pt-60 pb-60 md-pt-70 md-pb-70">
